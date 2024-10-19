@@ -16,14 +16,12 @@ class ContratoTest {
     nombre = "Juan";
     Time fecha;
     String lugar;
-    getContrato(agregarContrato(setNombre(nombre), setFechaInicio(fecha), setLugar(lugar)));
+    setContrato(crearContrato(setNombre(nombre), setFechaInicio(fecha), setLugar(lugar)));
 
     assertEquals(nombre, CrearContrato().getNombre());
     assertEquals(fecha, CrearContrato().getFechaInicio());
     assertEquals(lugar, CrearContrato().GetLugar());
     }
 
-    @Test
-    
 
 }
