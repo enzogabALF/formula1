@@ -1,13 +1,13 @@
 package com.example.demo;
 
 
-public class ContratoSponsor {
+public class SponsorContrato {
     Sponsor sponsor;
     String fechaInicio;
     String fechaFinalizacion;
     String Ubicacion;
     
-    public ContratoSponsor(Sponsor sponsor, String fechaInicio, String fechaFinalizacion, String ubicacion) {
+    public SponsorContrato(Sponsor sponsor, String fechaInicio, String fechaFinalizacion, String ubicacion) {
         setSponsor(sponsor);
         setFechaInicio(fechaInicio);
         setFechaFinalizacion(fechaFinalizacion);
@@ -37,5 +37,7 @@ public class ContratoSponsor {
     public void setUbicacion(String ubicacion) {
         Ubicacion = ubicacion;
     }
-
+    public SponsorContrato setContratoSponsor(SponsorContrato contratoSponsor){
+        return contratoSponsor;
+    }
 }
