@@ -26,7 +26,8 @@ public class personaTest {
         String nombre= "juan";
         String nacionalidad= "argentino";
         int numero= 10;
-        piloto= new Piloto(numero, nombre, nacionalidad);
+        
+        piloto= new Piloto(numero, nombre, nacionalidad, null);
         assertEquals(nombre, piloto.getNombre());
         assertEquals(nacionalidad, piloto.getNacionalidad());
         assertEquals(numero, piloto.getNumero());

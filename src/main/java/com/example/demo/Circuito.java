@@ -18,6 +18,7 @@ public class Circuito implements isSponsoreable{
     public ArrayList<SponsorContrato> getSponsor() {
         return Sponsor;
     }
+    
     public void setSponsor(ArrayList<SponsorContrato> sponsor) {
         Sponsor = sponsor;
     }

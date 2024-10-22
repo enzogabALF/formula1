@@ -14,6 +14,24 @@ public class Equipo implements isSponsoreable{
         setMecanicos(mecanicos);
         setIngenieroPrincipal(ingenieroPrincipal);
     }
+    public ArrayList<Piloto> getPilotos(){
+        return pilotos;
+    }
+    public ArrayList<Mecanico> getMecanicos(){
+        return mecanicos;
+    }
+    public Ingeniero getIngenieroPrincipal(){
+        return ingenieroPrincipal;
+    }
+
+
+
+
+
+
+
+
+
     public ArrayList<SponsorContrato> getSponsor() {
         return sponsor;
     }
